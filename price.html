@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="price.css">
+</head>
+<body>
+    <div id="price">
+    <form>
+      <b>  <input type="checkbox" name="availibility"> Price Availibility</b>
+      <fieldset id="leg1">
+        <legend ><h4>Opening</h4></legend>
+        <div id="text">
+        "Good morning/afternoon,Sir/Ma'am!<br>This is Preeti calling from Utec Customer Care.
+        <div id="option">
+            <input type="radio" value="yes" name="welcome"> Yes</input>
+            <input type="radio" value="No" name="welcome"> No</input>
+        </div>
+        <br> This is a feedback call regarding your recent experience with Utec.Is this good time to talk with you ?
+        </div>
+      </fieldset>
+      <fieldset id="leg1">
+        <legend ><h4>If customer says No</h4></legend>
+        <div id="text">
+            Could you give me a time when I can call you back? Capture Date and Time
+            <div id="option">
+                <input type="text" name="date">
+            </div>
+            (Once customer confirms)<br>
+            Thank you,sir/ma'am, I have noted it down.<br>
+            Have a good day./Have a good evevning.<br>
+            End of Call
+           </div>
+      </fieldset>
+     
+      <fieldset >
+        <legend><h4>If customer says Yes</h4></legend>
+        <div id="text">
+           We had recently provided you with a list of Ultratech dealers,as per your reequest.<br><br>
+           Did this list help you?
+           <div id="option1">
+           <input type="radio" value="yes" name="list"> Yes</input>
+            <input type="radio" value="No" name="list"> No</input>
+        </div>
+        </div>
+        <div id="p1">
+        <fieldset id="leg1">
+            <legend ><h4>If yes</h4></legend>
+            <div id="text">
+                Thank you.Could you tell us if you have bought an ULtraTech product from any of these dealers?
+                <div id="option1">
+                    <input type="radio" value="yes" name="dealers"> Yes</input>
+                     <input type="radio" value="No" name="dealers"> No</input>
+                 </div>
+                </div>
+                <div id="p2">
+                <fieldset id="leg1">
+                    <legend ><h4>If Yes</h4></legend>
+                    <div id="text">
+                        Since you have bought ULtraTech Product/s.I'd<br>
+                        like to tell you about certain other services which<br>
+                        can be useful to you. Would you like me to share<br>
+                        the details?<br>
+                        </div>
+                        <div id="option1">
+                            <input type="radio" value="yes" name="product"> Yes</input>
+                             <input type="radio" value="No" name="product"> No</input>
+                         </div>
+                         <fieldset id="leg1">
+                            <legend ><h4>If yes</h4></legend>
+                            <div id="text">
+                                Ask for certain details that will be a guide to<br>
+                                raising SR later.(Stage of Construction)<br>
+                                <select id="construction" name="construction">
+                                    <option ></option>
+                                    <option></option>
+                                    <option></option>
+                                    <option></option>
+                                    <option></option>
+                            
+                                </select><br>
+                                Provide the details of the relevant services<br>
+                                <input type="text" id="services" name="services"><br>
+                                Do you require any of these Services ?
+                                <div id="option1">
+                                    <input type="radio" value="yes" name="req"> Yes</input>
+                                     <input type="radio" value="No" name="req"> No</input>
+                                 </div>
+                            </div>
+                         </fieldset>
+                         <fieldset id="leg1">
+                         <legend><h4>If yes</h4></legend>
+                         <input type="text" name="reqservice" id="reqservice" ><br><br>
+                         <div id="text">
+                         Thank you.As per your requirement.I'm<br>
+                         raising the relevant Service requests.<br>
+                         You will soon get an SMS on your<br>
+                         registered number regarding the same.<br><br>
+                         One last thing, please share some details<br>
+                         reagrding your last ULtraTech purchase.<br>
+                         Which product did you buy?<br>
+                         <input type="text" name="buy" id="box" ><br><br>
+                         What was the quantity?<br>
+                         <input type="text" name="quantity" id="box" ><br><br>
+                        Date of purchase<br>
+                        <input type="text" name="datepur" id="box" ><br><br>
+                        What was the name of dealers?<br>
+                        <input type="text" name="deal" id="box" ><br><br><br>
+                        Thank you for your time.Is there<br>
+                        anything else I can help you with?<br>
+                        <div id="option1">
+                            <input type="radio" value="yes" name="help"> Yes</input>
+                             <input type="radio" value="No" name="help"> No</input>
+                         </div><br>
+                         Handle call on a case to case bases. OR<br><br>
+                         Thank you,sir/ma'am for your time.Have a<br>
+                         good/day/evening.<br>
+                         END OF CALL
+
+                         </div>
+                        </fieldset>
+                </fieldset>
+                </div>
+                <div id="p3">
+                    <fieldset>
+                        <legend><h4>If No</h4></legend>
+                        <div id="text">
+                            Once last thing,please share some detail<br>
+                            reegarding your last Ultratech purchase.<br>
+                            1.Which product did you buy?<br>
+                            <input type="text" id="box" name="whichpro"><br><br>
+                            2.What was the quantity?<br>
+                            <input type="text" id="box" name="quant1"><br><br>
+                            3.Date of purchase ?
+                            <input type="text" id="box" name="date1"><br><br>
+                            4.What was the Name of dealer?
+                            <input type="text" id="deal" name="dealers"><br><br>
+                            Thank you for your time.Is there anything 
+                            I can help you with?<br>
+                            <div id="option1">
+                                <input type="radio" value="yes" name="helps"> Yes</input>
+                                 <input type="radio" value="No" name="helps"> No</input>
+                             </div><br>
+                             Handle call on case to case bases.<br><br>
+                             Thank you, sir/ma'am for your time.Have a
+                             good day/evening.
+                             END OF Call
+                             <br><br>
+                        </div>
+                    </fieldset>
+              
+                  </div>
+        </fieldset>
+        </div>
+
+    <div id="p4">
+        <fieldset>
+            <legend><h4>If No</h4></legend>
+            <div id="text">
+            We are sorry to hear.Could you tell us the<br> reason why?
+            <input type="text" name="reason" id="deal">
+            Would you like us to send you another alst of our<br>dealers?
+            <div id="option1">
+                <input type="radio" value="yes" name="another"> Yes</input>
+                 <input type="radio" value="No" name="another"> No</input>
+             </div>
+             <div id="p5">
+                <fieldset>
+                    <legend><h4>If Yes</h4></legend>
+                    I have noted down your request.You will
+                    receive another list of our dealers through
+                    SMS right after this call.<br>
+                    Thank you for your time.Is there anything
+                    else I can help you with?
+                    <div id="option1">
+                        <input type="radio" value="yes" name="help1"> Yes</input>
+                         <input type="radio" value="No" name="help1"> No</input>
+                     </div>
+                     Handle call on a case to case basis. OR<br>
+                     <br>Thank you, sir/ma'am for your time.Have a
+                     good day/evening.
+                     END OF CALL.
+                     <br><br>
+                    </fieldset>
+             </div>
+             <div id="p6">
+                <fieldset>
+                    <legend><h4>If No</h4></legend>
+                    1.Have you bought the product
+                    of any other company?If yes,
+                    which one?
+                    <input type="text" name="bought" id="deal">
+                    2.Could you tell us the reason why
+                    you didn't buy the product?
+                    <input type="text" name="reason1" id="deal">
+                    Thank you for your time.Is there
+                    anything else I can help you with?
+                    <div id="option1">
+                        <input type="radio" value="yes" name="help2"> Yes</input>
+                         <input type="radio" value="No" name="help2"> No</input>
+                     </div><br>
+                     Handle call on a cases to case basis.
+                     Or<br>
+                     <br>Thank you, sir/ma'am for your time.Have a
+                     good day/evening.
+                     END OF Call
+                    </fieldset>
+             </div>
+            </div>
+
+
+        </fieldset>
+</div>
+      </fieldset>
+     
+    </form>
+    </div>
+</body>
+</html>
